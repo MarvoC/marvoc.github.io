@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Tunbridge Wells Hockey Club KitStore Orders</title>
+  </head>
+  <body>
+      <div class="splitscreen">
+          <div class="left">
+              <img src="images/twhc-logo-alpha.png" width="100" height="100" alt="The TWHC logo">
+          </div>
+          <div class="left">
+              <h1>Tunbridge Wells Hockey Club 
+                  <p>Order Details</p></h1>            
+            </div>
+        </div>
+ <p>Use the TWHC KitStore Order Number to retrieve order details and produce a packing label</p>
+ <p>For Order packing labels:</p>
+<ul> 
+  <li>Enter Order Number</li>
+  <li>Hit 'Submit' button</li>
+  <li>Hit 'Print label'</li>
+</ul>
+<form action="/action_page.php"><!-- enter the correct url for kit store -->
+  Order Number:<br>
+  <input type="text" name="order-number" size="3" maxlength="4" autofocus required><br>
+<!--  /* check the name of attribute to submit -- is is 'order-number=?'-->
+<input type="submit" value="Submit">
+</form>
+<p>Happy picking... </p>
+<p>Click here to return to the <a href="http://www.twhc.co.uk">TWHC Website</a></p>
+<button>Change user</button>
+<script src="scripts/main.js"></script>
+  </body>
+</html>

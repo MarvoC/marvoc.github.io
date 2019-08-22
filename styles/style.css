@@ -1,0 +1,41 @@
+html {
+  font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Roboto', sans-serif;
+   background-color: red;
+  color: white;
+}
+h1 {
+  margin: 0;
+  color: white;
+  padding: 10px 0;
+  font-size: 24px;
+  /*text-align: center;*/
+  text-shadow: 4px 4px 4px #aaa;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  /*border: 5px solid black;*/
+}
+p, li {
+  font-size: 14px;    
+  line-height: 2;
+  /*letter-spacing: 1px;*/
+}
+img {
+  display: block;
+  /*margin: 0 auto;*/
+}
+a:hover {
+  color: white;
+}
+.splitscreen {
+  display:flex;
+}
+.splitscreen .left {
+  flex: 1;
+}
+.splitscreen .right {
+  flex: 1;
+}
